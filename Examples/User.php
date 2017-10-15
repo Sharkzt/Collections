@@ -22,7 +22,7 @@ class User
     /**
      * @var ArrayList|Article[]
      */
-    protected $articles;
+    public $articles;
 
     /**
      * User constructor.
@@ -116,5 +116,16 @@ class User
     public function getArticles(): ArrayList
     {
         return $this->articles;
+    }
+
+    /**
+     * @param string $class
+     * @return User
+     */
+    public function setArticlesInstance(string $class): User
+    {
+        $this->articles = new ArrayList($class);
+
+        return $this;
     }
 }
