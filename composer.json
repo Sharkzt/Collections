@@ -2,7 +2,7 @@
   "name" : "sharkzt/collections",
   "description" : "Generic-like collections for php, inspired by OOP languages structures",
   "keywords": ["collections", "php"],
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "homepage": "https://github.com/Sharkzt/Collections",
   "license" : "MIT",
   "authors" : [{
