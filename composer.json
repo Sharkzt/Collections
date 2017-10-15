@@ -1,0 +1,27 @@
+{
+  "name" : "sharkzt/collections",
+  "description" : "Generic-like collections for php, inspired by OOP languages structures",
+  "keywords": ["collections", "php"],
+  "version" : "0.1.0",
+  "homepage": "https://github.com/Sharkzt/Collections",
+  "license" : "MIT",
+  "authors" : [{
+    "name" : "Alexander Pysarchuk",
+    "email" : "then.bemyguest@gmail.com"
+  }],
+  "require" : {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "dev-master",
+    "phpunit/phpunit": ">=6.4"
+  },
+  "autoload" : {
+    "psr-4" : { "Sharkzt\\Collections\\" : "" }
+  },
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "0.1.x-dev"
+    }
+  }
+}
